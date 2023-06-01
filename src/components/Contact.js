@@ -2,7 +2,7 @@ import { useState } from "react"
 import { Container, Row } from "react-bootstrap"
 import contactImg from "../assets/img/contact-img.svg"
 
-export const Banner = () => {
+export const Contact = () => {
     const formInitialDetails = {
         firstName : '',
         lastName : '',
@@ -23,7 +23,7 @@ export const Banner = () => {
     }
 
     const handleSubmit = () =>{
-        
+
     }
 
     return (

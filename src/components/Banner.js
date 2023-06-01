@@ -54,7 +54,7 @@ export const Banner = () => {
                         <p> A typical Virgo + ESFJ.</p>
                         <p> Love travel, literature, films, and outdoor sports</p>
                         <p> A recent graduate from Carnegie Mellon University</p>
-                        <button onClick={()=> console.log("connect")}>Let's connect <ArrowRightCircle size={25}/></button>
+                        <button onClick={()=> console.log("learn more")}>Learn more about me! <ArrowRightCircle size={25}/></button>
                     </Col>
 
                     <Col xs={12} md={6} xl={5}>
