@@ -50,15 +50,23 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to My Profolio</span>
                         <h1>{"Hi! I'm Kate Fu"}</h1>
-                        <span className="wrap">{text}</span>
                         <p> A typical Virgo + ESFJ.</p>
                         <p> Love travel, literature, films, and outdoor sports</p>
                         <p> A recent graduate from Carnegie Mellon University</p>
+                        <p> Currently searching for a software engineer job</p>
                         <button onClick={()=> console.log("learn more")}>Learn more about me! <ArrowRightCircle size={25}/></button>
                     </Col>
 
                     <Col xs={12} md={6} xl={5}>
-                        <img src={headerImage} alt="header image"></img>
+                        <Row>
+                            <img className="header-image" src={headerImage} alt="header image"></img>
+                        </Row>
+                        <Row>
+                            <span className="wrap">{text}</span>
+                        </Row>
+                        <Row>
+                            <p>yuehaofu207@gmail.com</p>
+                        </Row>
                     </Col>
                 </Row>
             </Container>

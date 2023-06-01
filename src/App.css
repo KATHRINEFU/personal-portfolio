@@ -11,6 +11,14 @@
   font-weight: 700;
 }
 
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/font/Poppins-Regular.ttf');
+  font-weight: 700;
+}
+
+
+
 /************ Default Css ************/
 * {
   margin: 0;
@@ -257,8 +265,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: inline-block;
 }
 
+.banner .header-image{
+  width: 70%;
+  height: 70%;
+  align-items: center;
+  margin: auto;
+}
+
 .banner .wrap{
+  margin-top: 20px;
   font-size: 32px;
+  font-family: 'Poppins';
 }
 .banner h1 {
   font-size: 80px;
@@ -269,6 +286,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
 }
 .banner p {
+  font-family: 'Poppins';
   color: #D14D72;
   font-size: 24px;
   letter-spacing: 0.8px;
@@ -278,6 +296,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner button {
   color: #121212;
   font-weight: 700;
+  font-family: 'Poppins';
   font-size: 24px;
   margin-top: 60px;
   letter-spacing: 0.8px;
