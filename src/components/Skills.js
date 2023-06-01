@@ -1,4 +1,3 @@
-import { Row, Col, Container } from "react-bootstrap";
 import Carousel from "react-multi-carousel"
 import "react-multi-carousel/lib/styles.css"
 import meter1 from "../assets/img/meter1.svg"
@@ -27,35 +26,44 @@ export const Skills = () => {
         }
       };
     
-    const skillItems = [
-        {id: 1,name:'Web Application Development'},
-        {id: 2,name:'Mobile Application Development'},
-        {id: 3,name:'Machine Learning'},
-        {id: 4,name:'Project Management'},
-    ]
+    // const skillItems = [
+    //     {id: 1,name:'Web Application Development'},
+    //     {id: 2,name:'Mobile Application Development'},
+    //     {id: 3,name:'Machine Learning'},
+    //     {id: 4,name:'Project Management'},
+    // ]
 
     return (
         <section className="skill" id="skills">
-            <Container>
-                <Row>
-                    <Col>
-                        <div className="skill-bx">
+            <div className="container">
+                <div className="row">
+                    <div className="col-12">
+                        <div className="skill-bx wow zoomIn">
                             <h2>Skills</h2>
-                            <p>These are my skills</p>
-                            <Carousel responsive={responsive} infinite = {true} className="skill-slider">
-                                {skillItems.map(item => {
-                                    <div key={item.id} className="item">
-                                    <img src={meter1} alt="Image"/>
-                                    <h5>{item.name}</h5>
-                                    </div>
-                                })}
-                                
+                            <p>These are my skills!<br></br> And I'm exploring more.</p>
+                            <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                                <div className="item">
+                                    <img className="skill-image" src={meter1} alt="Image" />
+                                    <h5>Web Development</h5>
+                                </div>
+                                <div className="item">
+                                    <img className="skill-image" src={meter2} alt="Image" />
+                                    <h5>Mobile Development</h5>
+                                </div>
+                                <div className="item">
+                                    <img className="skill-image" src={meter3} alt="Image" />
+                                    <h5>Machine learning</h5>
+                                </div>
+                                <div className="item">
+                                    <img className="skill-image" src={meter1} alt="Image" />
+                                    <h5>Project Management</h5>
+                                </div>
                             </Carousel>
                         </div>
-                    </Col>
-                </Row>
-            </Container>
-            {/* <img className="backgronud-image-left" src={colorSharp} alt="background image"/> */}
+                    </div>
+                </div>
+            </div>
+            <img className="background-image-left" src={colorSharp} alt="Image" />
         </section>
-    )
+      )
 }

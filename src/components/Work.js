@@ -1,8 +1,10 @@
 import {Skills} from './Skills'
+import {Projects} from './Projects'
 export const Work = () => {
     return (
         <section>
-            <Skills/>
+            {/* <Skills/> */}
+            <Projects/>
         </section>
     )
 
