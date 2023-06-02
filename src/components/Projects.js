@@ -18,7 +18,12 @@ export const Projects = () => {
                 <Row>
                     <Col>
                     <h2> Work </h2>
-                    <p> My Professon and Career </p>
+                    <ul className="project-summary">
+                        <li>I'm a software engineer seeking moonshot in fullstack/backend positions. </li>
+                        <li>I'm also Carnegie Mellon University class of 2023 M.S. in Information System Management.</li>
+                        <li>My primary interests have been web development, iOS development, machine learning, product management and the list is still growing. </li>
+                        <li>I am open to software engineer/data science/startup opportunities. If you think I'm a good fit, please contant me at yuehaofu207@gmail.com</li>
+                    </ul>
                     <TabContainer id="projects-tabs" defaultActiveKey="first">
                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                             <Nav.Item>
