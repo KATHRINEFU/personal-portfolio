@@ -344,12 +344,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
+  font-family: 'Poppins';
 }
 .skill h2 {
 	font-size: 45px;
 	font-weight: 700;
 }
 .skill p {
+    font-family: 'Poppins';
     color: #B8B8B8;
     font-size: 18px;
     letter-spacing: 0.8px;
@@ -386,10 +388,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
   background-color: #FFFFE8;
 }
-.project h2 {
+.project h4 {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
+  /* font-family: 'Poppins'; */
 }
 .project p {
   color: #B8B8B8;
@@ -399,6 +402,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 14px auto 30px auto;
   text-align: center;
   width: 56%;
+  font-family: 'Poppins';
 }
 .project .nav.nav-pills {
   width: 72%;
@@ -408,10 +412,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
 }
 .project .nav.nav-pills .nav-item {
-  width: 33.33333%;
+  width: 25%;
 }
 .project .nav.nav-pills .nav-link {
-  background-color: transparent;
+  background-color: #FFD4D4;
   border-radius: 0;
   padding: 17px 0;
   color: #fff;
@@ -450,6 +454,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 .nav-link#projects-tabs-tab-third {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.nav-link#projects-tabs-tab-fourth {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }
@@ -491,7 +500,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1.1em;
 }
-.proj-txtx span {
+.proj-txtx p {
+  color: #121212;
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
@@ -504,6 +514,181 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 35%;
   right: 0;
   z-index: -4;
+}
+
+/* skill bar */
+
+.title-text {
+  text-align: center;
+  background-color: crimson;
+  color: #fff;
+  font-weight: 400;
+  border-radius: 50px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-family: 'Poppins';
+}
+
+.container .skill-box {
+  width: 100%;
+  margin: 25px 0;
+}
+
+.skill-box .title{
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  font-family: 'Poppins';
+}
+
+.skill-box .skill-bar{
+  height: 16px;
+  width: 80%;
+  border-radius: 6px;
+  margin-top: 6px;
+  margin: auto;
+  background: rgba(0,0, 0, 0.1);
+}
+
+.skill-box .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 95%;
+  border-radius: 6px;
+  background: #D14D72;
+  animation: progress 0.4s ease-in-out forwards;
+  opacity: 0;
+}
+
+.skill-per.java {
+  width: 90%;
+  animation-delay: 0.1s;
+}
+
+.skill-per.python {
+  width: 90%;
+  animation-delay: 0.1s;
+}
+
+.skill-per.javascript {
+  width: 85%;
+  animation-delay: 0.1s;
+}
+
+.skill-per.c{
+  width: 50%;
+  animation-delay: 0.2s;
+}
+.skill-per.r{
+  width: 50%;
+  animation-delay: 0.2s;
+}
+.skill-per.html{
+  width: 85%;
+  animation-delay: 0.2s;
+}
+.skill-per.django {
+  width: 85%;
+  animation-delay: 0.2s;
+}
+.skill-per.reactjs {
+  width: 85%;
+  animation-delay: 0.2s;
+}
+.skill-per.spring {
+  width: 50%;
+  animation-delay: 0.3s;
+}
+.skill-per.springboot {
+  width: 50%;
+  animation-delay: 0.3s;
+}
+.skill-per.rubyonrails {
+  width: 40%;
+  animation-delay: 0.3s;
+}
+.skill-per.restfulapi {
+  width: 50%;
+  animation-delay: 0.3s;
+}
+.skill-per.sql{
+  width: 80%;
+  animation-delay: 0.4s;
+}
+.skill-per.mysql {
+  width: 80%;
+  animation-delay: 0.4s;
+}
+.skill-per.mongodb{
+  width: 60%;
+  animation-delay: 0.4s;
+}
+.skill-per.docker{
+  width: 60%;
+  animation-delay: 0.4s;
+}
+.skill-per.aws{
+  width: 60%;
+  animation-delay: 0.4s;
+}
+.skill-per.heroku{
+  width: 50%;
+  animation-delay: 0.4s;
+}
+.skill-per.ml{
+  width: 80%;
+  animation-delay: 0.5s;
+}
+.skill-per.da{
+  width: 70%;
+  animation-delay: 0.5s;
+}
+.skill-per.dv{
+  width: 70%;
+  animation-delay: 0.5s;
+}
+.skill-per.hadoop{
+  width: 30%;
+  animation-delay: 0.5s;
+}
+
+
+@keyframes progress {
+  0% {
+      width: 0;
+      opacity: 1;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
+.skill-per .tooltip{
+  position: absolute;
+  right: -14px;
+  top: -28px;
+  font-size: 9px;
+  font-weight: 500;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 3px;
+  background: crimson;
+  z-index: 1;
+}
+
+.tooltip::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  height: 10px;
+  width: 10px;
+  z-index: -1;
+  background-color: crimson;
+  transform: translateX(-50%) rotate(45deg);
 }
 
 
