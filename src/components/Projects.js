@@ -2,6 +2,7 @@ import { Container, Row, Col, TabContainer, TabContent, TabPane, Nav} from "reac
 import { ProjectCard } from "./ProjectCard"
 import projImg1 from "../assets/img/project-img1.png"
 import Skills from "./SkillBar"
+import { Education } from "./Education"
 
 export const Projects = () => {
     const projects = [
@@ -44,6 +45,7 @@ export const Projects = () => {
                             `   <Skills/>,
                             </TabPane>
                             <TabPane eventKey="second">
+                                <Education/>
                             </TabPane>
                             <TabPane eventKey="third">
                             </TabPane>

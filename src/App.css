@@ -702,6 +702,29 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transform: translateX(-50%) rotate(45deg);
 }
 
+/* Education */
+.educard.container{
+  width: 75%;
+}
+
+.educard.container row{
+  margin-top: 20px;
+}
+
+.school-img{
+  width: 30%;
+  height: 50%;
+}
+
+.educard.container p{
+  width: 100%;
+}
+
+.educard.container ul{
+  font-family: 'Poppins';
+  color: #B8B8B8;
+  text-align: left;
+}
 
 .App {
   text-align: center;
