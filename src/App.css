@@ -726,6 +726,91 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: left;
 }
 
+/* Experience */
+.timeline-motion{
+  flex-direction: column;
+  gap: 2rem;
+  font-family: 'Poppins';
+}
+
+.timeline-container {
+  width: 100%;
+  flex-direction: column;
+  gap: 1.4rem;
+  position: relative;
+}
+
+.timeline-item {
+  width: 100%;
+  justify-content: space-between;
+  line-height: 40px;
+  align-items: flex-start;
+
+  >div {
+      flex: 1;
+  }
+}
+
+.exp-role {
+    margin-left: 2rem;
+}
+
+.timeline-progress {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    left: 45%;
+}
+
+.timeline-line {
+    position: absolute;
+    height: 92%;
+    width: 2px;
+    background-image: linear-gradient(black 33%, rgba(255, 255, 255, 0) 0%);
+    background-position: right;
+    background-size: 2px 30px;
+    background-repeat: repeat-y;
+    left: 48%;
+    z-index: 1;
+    border-radius: 5px;
+
+    >div {
+      flex: 1;
+      padding-top: .8rem;
+      z-index: 2;
+}}
+
+
+.timeline-circle {
+    border-radius: 50%;
+    background: black;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.vertical-timeline{
+  font-family: 'Poppins';
+}
+
+.vertical-timeline-element-title{
+  font-size: 24px;
+  text-align: center;
+}
+
+.vertical-timeline-element--work{
+  text-align: center;
+  margin: auto;
+}
+
+.vertical-timeline-element--work p{
+  font-size: 16px;
+  text-align: center;
+  margin: auto;
+}
+
+
 .App {
   text-align: center;
 }

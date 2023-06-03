@@ -3,6 +3,8 @@ import { ProjectCard } from "./ProjectCard"
 import projImg1 from "../assets/img/project-img1.png"
 import Skills from "./SkillBar"
 import { Education } from "./Education"
+import {Timeline} from "./Timeline"
+import { Experience } from "./Experience"
 
 export const Projects = () => {
     const projects = [
@@ -48,6 +50,7 @@ export const Projects = () => {
                                 <Education/>
                             </TabPane>
                             <TabPane eventKey="third">
+                                <Experience/>
                             </TabPane>
                             <TabPane eventKey="fourth">
                                 <Row>
