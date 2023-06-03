@@ -1,6 +1,8 @@
 import { Container, Row, Col, TabContainer, TabContent, TabPane, Nav} from "react-bootstrap"
 import { ProjectCard } from "./ProjectCard"
 import projImg1 from "../assets/img/project-img1.png"
+import projImg2 from "../assets/img/furrywayhome.jpeg"
+import projImg3 from "../assets/img/katechat.png"
 import Skills from "./SkillBar"
 import { Education } from "./Education"
 import {Timeline} from "./Timeline"
@@ -11,9 +13,24 @@ export const Projects = () => {
         {
             title: 'MyRadiology360',
             description: 'A mobile app for radiology education',
-            techStack: ['Flutter', 'Firebase'],
+            techStack: 'Flutter | Dart | Firebase | Figma | Jira',
             imgUrl: projImg1,
-        }
+            github: 'https://github.com/KATHRINEFU/MyRadiology360'
+        },
+        {
+            title: 'Furry Way Home',
+            description: 'A website for animal adoption with virtual pet raising game',
+            techStack: 'Python | Django | SQLLite | MySQL | Docker | AWS',
+            imgUrl: projImg2,
+            github: 'https://github.com/KATHRINEFU/FurryWayHome'
+        },
+        {
+            title: 'Kate Chat',
+            description: 'A iOS app for realtime message',
+            techStack: 'Swift | MessageKit',
+            imgUrl: projImg3,
+            github: 'https://github.com/KATHRINEFU/KateChat'
+        },
     ]
     return (
         <section className="project" id="project">
@@ -54,7 +71,7 @@ export const Projects = () => {
                             </TabPane>
                             <TabPane eventKey="fourth">
                                 <Row>
-                                    {projects.map((project, index) => {return <ProjectCard key={index} {...project}/>})}
+                                        {projects.map((project, index) => {return <ProjectCard key={index} {...project}/>})}
                                 </Row>
                             </TabPane>
                         </TabContent>
