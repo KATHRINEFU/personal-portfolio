@@ -1,71 +1,48 @@
-import { useState } from "react"
-import { Container, Row } from "react-bootstrap"
-import contactImg from "../assets/img/contact-img.svg"
+import { Container, Row, Col } from "react-bootstrap";
+import LocationOnIcon from '@material-ui/icons/LocationOn';
+import EmailIcon from '@material-ui/icons/Email';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import ScrollToTop from "react-scroll-to-top";
 
 export const Contact = () => {
-    const formInitialDetails = {
-        firstName : '',
-        lastName : '',
-        email : '',
-        phone : '',
-        message : ''
-    }
-
-    const [formDetails, setFormDetails] = useState(formInitialDetails)
-    const [buttonText, setButtonText] = useState('Send')
-    const [status, setStatus] = useState({})
-
-    const onFormUpdate = (category, value) =>{
-        setFormDetails({
-            ...formDetails,
-            [category]: value
-        })
-    }
-
-    const handleSubmit = () =>{
-
-    }
-
-    return (
-        <section className="contact" id="connect">
-            <Container>
-                <Row className="align-items-center">
-                    <Col md={6}>
-                        <img src={contactImg} alt="contact us"></img>
-                    </Col>
-                    <Col md = {6}>
-                        <h2> Get In Touch</h2>
-                        <form onSubmit={handleSubmit}>
-                            <Row>
-                                <Col sm = {6} className = "px-1">
-                                    <input type="text" value={formDetails.firstName} placeholder="First Name" onChange={(e)=> {onFormUpdate('firstName', e.target.value)}}></input>
-                                </Col>
-                                <Col sm = {6} className = "px-1">
-                                    <input type="text" value={formDetails.lastName} placeholder="Last Name" onChange={(e)=> {onFormUpdate('lastName', e.target.value)}}></input>
-                                </Col>
-                                <Col sm = {6} className = "px-1">
-                                    <input type="tel" value={formDetails.phone} placeholder="Phone Number" onChange={(e)=> {onFormUpdate('phone', e.target.value)}}></input>
-                                </Col>
-                                <Col sm = {6} className = "px-1">
-                                    <input type="email" value={formDetails.email} placeholder="Email Address" onChange={(e)=> {onFormUpdate('email', e.target.value)}}></input>
-                                </Col>
-                                <Col >
-                                    <textarea rows={6} value={formDetails.message} placeholder="Message" onChange={(e)=> {onFormUpdate('message', e.target.value)}}></textarea>
-                                    <button type="submit">
-                                        <span>{buttonText}</span>
-                                    </button>
-                                </Col>
-                                {
-                                    status.message && 
-                                    <Col>
-                                        <p className={status.success === false ? "danger": "success"}>{status.message}</p>
-                                    </Col>
-                                }
-                            </Row>
-                        </form>
-                    </Col>
-                </Row>
-            </Container>
-        </section>
-    )
+  
+  return (
+    <section className="contact" id="connect">
+      <Container>
+        <Row>
+            <Col>
+            <ScrollToTop color="#BE5A83"/>
+            </Col>
+        </Row>
+        <Row>
+            <Col>
+            <h2> Nice to meet you! Let's connect</h2>
+            </Col>
+        </Row>
+        <Row style={{marginTop:'20px', marginBottom: '20px'}}>
+            <Col>
+            <LocationOnIcon/>
+            <h3>Find me at </h3>
+            <p>Carnegie Mellon University, Pittsburgh, PA, 15232</p>
+            </Col>
+            <Col>
+            <EmailIcon/>
+            <h3>Email me at </h3>
+            <p>yuehaofu207@gmail.com</p>
+            </Col>
+            <Col>
+            <LinkedInIcon/>
+            <h3>Connect with me at</h3>
+            <a href="https://www.linkedin.com/in/yuehao-kate-fu-87b5bb1b2/">My Linkedin Profile</a>
+            </Col>
+        </Row>
+        <Row>
+            <Col>
+            <span className="footer">Created by Kate Fu | With ReactJS | Last Updated: 2023/6/4</span><br/>
+            <span className="footer">Copyright 2023. All Rights Reserved</span>
+            </Col>
+        </Row>
+      </Container>
+    </section>
+  )
 }

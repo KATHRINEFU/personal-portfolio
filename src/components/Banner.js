@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap"
 import {ArrowRightCircle} from "react-bootstrap-icons"
 import headerImage from "../assets/photo.png"
 import { useState, useEffect } from "react"
+import LocationOnIcon from '@material-ui/icons/LocationOn';
 
 export const Banner = () => {
 
@@ -54,6 +55,9 @@ export const Banner = () => {
                         <p> Love travel, literature, films, and outdoor sports</p>
                         <p> A recent graduate from Carnegie Mellon University</p>
                         <p> Currently searching for a software engineer job</p>
+                        <p>
+                            <LocationOnIcon/> Pittsburgh, PA, 100% Willing to relocate
+                        </p>
                         <button onClick={()=> console.log("learn more")}>Learn more about me! <ArrowRightCircle size={25}/></button>
                     </Col>
 

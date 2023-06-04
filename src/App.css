@@ -290,7 +290,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #D14D72;
   font-size: 24px;
   letter-spacing: 0.8px;
-  line-height: 1.5em;
+  line-height: 1em;
   width: 96%;
 }
 .banner button {
@@ -912,6 +912,53 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 300px;
 }
 
+/* contact */
+.contact{
+  background-color: #FFFFE8;
+}
+
+.contact img{
+  width: 70%;
+  height: 70%;
+  display: block;
+  margin-left: 150px;
+}
+
+.contact h2 {
+  margin-top: 50px;
+	color: #D14D72;
+	animation: beat .5s infinite alternate;
+	transform-origin: center;
+}
+
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(1.2); }
+}
+
+.contact{
+  margin-top: 100px;
+}
+
+.contact a{
+  text-align: center;
+  color: #121212;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.contact a:hover{
+  color: #BE5A83;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.footer{
+  color: #666;
+  font-family: 'Poppins';
+  font-size: 16px;
+  margin-top: 50px
+}
 
 .App {
   text-align: center;
