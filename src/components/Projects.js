@@ -3,6 +3,9 @@ import { ProjectCard } from "./ProjectCard"
 import projImg1 from "../assets/img/project-img1.png"
 import projImg2 from "../assets/img/furrywayhome.jpeg"
 import projImg3 from "../assets/img/katechat.png"
+import projImg4 from "../assets/img/pw.png"
+import projImg5 from "../assets/img/paris.png"
+import projImg6 from "../assets/img/cf.png"
 import Skills from "./SkillBar"
 import { Education } from "./Education"
 import { Experience } from "./Experience"
@@ -11,14 +14,14 @@ export const Projects = () => {
     const projects = [
         {
             title: 'MyRadiology360',
-            description: 'A mobile app for radiology education',
+            description: 'A mobile app for radiology education (github private)',
             techStack: 'Flutter | Dart | Firebase | Figma | Jira',
             imgUrl: projImg1,
             github: 'https://github.com/KATHRINEFU/MyRadiology360'
         },
         {
             title: 'Furry Way Home',
-            description: 'A website for animal adoption with virtual pet raising game',
+            description: 'A website for animal adoption with virtual pet raising game (github private)',
             techStack: 'Python | Django | SQLLite | MySQL | Docker | AWS',
             imgUrl: projImg2,
             github: 'https://github.com/KATHRINEFU/FurryWayHome'
@@ -30,6 +33,28 @@ export const Projects = () => {
             imgUrl: projImg3,
             github: 'https://github.com/KATHRINEFU/KateChat'
         },
+        {
+            title: 'AI Article Generation',
+            description: 'A web service for AI article generation',
+            techStack: 'Python| fastAPI | JavaScript | HTML | GPT-3 API',
+            imgUrl: projImg5,
+            github: 'https://github.com/KATHRINEFU/personal-portfolio'
+        },
+        {
+            title: 'Personal Website',
+            description: 'A personal portfolio website',
+            techStack: 'React| React bootstrap | CSS',
+            imgUrl: projImg4,
+            github: 'https://github.com/KATHRINEFU/personal-portfolio'
+        },
+        {
+            title: 'Crowdfunding Easier',
+            description: 'A website for crowdfunding projects management',
+            techStack: 'Java | Maven | Spring | Springboot | SpringCloud | MyBatis',
+            imgUrl: projImg6,
+            github: 'https://github.com/KATHRINEFU/CrowdFunding'
+        },
+
     ]
     return (
         <section className="project" id="project">
