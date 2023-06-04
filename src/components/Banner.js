@@ -66,6 +66,7 @@ export const Banner = () => {
                         </Row>
                         <Row>
                             <p>yuehaofu207@gmail.com</p>
+                            <a class="resume-btn" href="YuehaoFu.pdf" title="" download>RESUME</a>
                         </Row>
                     </Col>
                 </Row>

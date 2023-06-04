@@ -92,7 +92,7 @@ export const Photos = () => {
                   alt="photo"
                 />
                 <Carousel.Caption>
-                  <h3>{image.caption + ', ' + image.date}</h3>
+                  <h4>{image.caption + ', ' + image.date}</h4>
                 </Carousel.Caption>
               </Carousel.Item>
             )})}
