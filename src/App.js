@@ -4,6 +4,7 @@ import {Banner} from './components/Banner'
 import {Work} from './components/Work'
 import { Life } from './components/Life';
 import { Contact } from './components/Contact';
+import { useEffect } from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
