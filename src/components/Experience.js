@@ -70,7 +70,7 @@ export const Experience = () => {
                 <VerticalTimelineElement
                      className="vertical-timeline-element--work"
                      contentStyle={{ background: '#D6E8DB', color: '#121212' }}
-                     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                     contentArrowStyle={{ borderRight: '7px solid  #D6E8DB' }}
                      date={exp.tenure}
                      iconStyle={{ background: '#BE5A83', color: '#fff' }}
                      icon={<WorkIcon/>}

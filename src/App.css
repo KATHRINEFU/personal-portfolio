@@ -848,6 +848,35 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding-left: 20px;
 }
 
+/* life */
+.life{
+  width: 70%;
+  align-items: center;
+  margin: auto;
+}
+.life h2{
+  margin-top: 50px;
+}
+
+.life h3{
+  margin-top: 20px;
+  font-family: 'Poppins';
+  font-size: 24px;
+}
+
+.life ul{
+  margin-top: 20px;
+  font-family: 'Poppins';
+  font-size: 18px;
+  text-align: left;
+}
+
+.gallery-image{
+  margin-top: 50px;
+  width: 200px;
+  height: 300px;
+}
+
 
 .App {
   text-align: center;

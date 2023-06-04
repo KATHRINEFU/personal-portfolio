@@ -94,7 +94,7 @@ function SkillsBar () {
             percentage: '50%'
         },
         {
-            skill: 'Machine Learning (Classification, Prediction, Natural Language Processing',
+            skill: 'Machine Learning (Classification, Prediction, Natural Language Processing)',
             name: 'ml',
             percentage: '80%'
         },
@@ -104,7 +104,7 @@ function SkillsBar () {
             percentage: '70%'
         },
         {
-            skill: 'Data Visualization (Matplotlib, Seaborn, PowerBI, Tableau',
+            skill: 'Data Visualization (Matplotlib, Seaborn, PowerBI, Tableau)',
             name: 'dv',
             percentage: '70%'
         },
