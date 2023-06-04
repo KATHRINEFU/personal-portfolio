@@ -10,10 +10,13 @@ export const Life = () => {
         'swimming',
         'tennis',
         'photography',
-        'vlog editting'
+        'vlog editting',
+        'baking',
+        'writing dairies'
     ]
 
     const dreamList = [
+        'have cats and dogs',
         'openning a bookstore',
         'openning a cafe',
         'openning an animal caring center',
@@ -22,6 +25,19 @@ export const Life = () => {
         'living in Paris or any other romantic European cities',
         'having Teleportation super power',
         'studying Talot'
+    ]
+
+    const movieList = [
+        'Before Sunrise',
+        '重慶森林  (Chungking Express)', 
+        'Love Actually', 
+        '君の名は (Your Name)', 
+        "Hachi: A Dog's tail",
+        'Titanic',
+        'Intersteller',
+        '無間道 (Infernal Affairs)',
+        'Roman Holiday',
+        'Dead Poets Society'
     ]
 
     return (
@@ -35,7 +51,7 @@ export const Life = () => {
                 </Row>
                 <Row>
                     <Col ms={5}>
-                        <h3> Something I like ...</h3>
+                        <h3> Something I particularly like ...</h3>
                         <ul>
                             {likeList.map(item => <li>{item}</li>)}
                         </ul>
@@ -46,7 +62,20 @@ export const Life = () => {
                             {dreamList.map(item => <li>{item}</li>)}
                         </ul>
                     </Col>
-                    
+                </Row>
+                <Row>
+                <Col ms={5}>
+                        <h3> Some movies I watched many times ...</h3>
+                        <ul>
+                            {movieList.map(item => <li>{item}</li>)}
+                        </ul>
+                    </Col>
+                    <Col ms={5}>
+                        <h3> Something I dreamed of ...</h3>
+                        <ul>
+                            {dreamList.map(item => <li>{item}</li>)}
+                        </ul>
+                    </Col>
                 </Row>
             </Container>
         </section>
