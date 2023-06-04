@@ -4,27 +4,28 @@ import { Photos } from "./Gallery"
 export const Life = () => {
     const likeList = [
         'travel',
-        'reading',
+        'literature',
         'movies',
-        'animals',
         'swimming',
-        'tennis',
         'photography',
-        'vlog editting',
         'baking',
-        'writing dairies'
+        'painting',
+        'animals',
+        'my bed',
+        'families and friends',
     ]
 
     const dreamList = [
         'have cats and dogs',
-        'openning a bookstore',
-        'openning a cafe',
+        'openning a bookstore with cafe',
         'openning an animal caring center',
         'developing an APP',
+        'starting my own business',
         'living with friends',
-        'living in Paris or any other romantic European cities',
+        'living near the sea',
+        'studying Talot',
         'having Teleportation super power',
-        'studying Talot'
+        'being free, happy, and independent'
     ]
 
     const movieList = [
@@ -34,10 +35,21 @@ export const Life = () => {
         '君の名は (Your Name)', 
         "Hachi: A Dog's tail",
         'Titanic',
-        'Intersteller',
+        'Midnight Paris',
         '無間道 (Infernal Affairs)',
         'Roman Holiday',
         'Dead Poets Society'
+    ]
+
+    const bookList = [
+        'The Remains of the Day by Kazuo Ishiguro',
+        'The Comfort of Strangers by Ian McEwan',
+        'The Postman Always Rings Twice by James M Cain',
+        'What Are You Looking At?: The Surprising, Shocking, and Sometimes Strange Story of 150 Years of Modern Art by Will Gompertz',
+        'Narziß und Goldmund by Hermann Karl Hesse',
+        'In Cold Blood by Truman Capote',
+        '我想做一个能在你葬礼上描述你一生的人 by 贾平凹',
+        '午夜降临前抵达 by 迟子建',
     ]
 
     return (
@@ -71,9 +83,9 @@ export const Life = () => {
                         </ul>
                     </Col>
                     <Col ms={5}>
-                        <h3> Something I dreamed of ...</h3>
+                        <h3> Some books I recently read ...</h3>
                         <ul>
-                            {dreamList.map(item => <li>{item}</li>)}
+                            {bookList.map(item => <li>{item}</li>)}
                         </ul>
                     </Col>
                 </Row>
