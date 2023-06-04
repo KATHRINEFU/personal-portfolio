@@ -5,7 +5,6 @@ import projImg2 from "../assets/img/furrywayhome.jpeg"
 import projImg3 from "../assets/img/katechat.png"
 import Skills from "./SkillBar"
 import { Education } from "./Education"
-import {Timeline} from "./Timeline"
 import { Experience } from "./Experience"
 
 export const Projects = () => {

@@ -52,7 +52,7 @@ export const Banner = () => {
                         <span className="tagline">Welcome to My Profolio</span>
                         <h1>{"Hi! I'm Kate Fu"}</h1>
                         <p> A typical Virgo + ESFJ.</p>
-                        <p> Love travel, literature, films, and outdoor sports</p>
+                        <p> Love travel, books, movies, animals and new things</p>
                         <p> A recent graduate from Carnegie Mellon University</p>
                         <p> Currently searching for a software engineer job</p>
                         <p>

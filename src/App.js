@@ -4,7 +4,6 @@ import {Banner} from './components/Banner'
 import {Work} from './components/Work'
 import { Life } from './components/Life';
 import { Contact } from './components/Contact';
-import { Footer } from './components/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
