@@ -8,6 +8,11 @@ import { Contact } from './components/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
+
+  useEffect(() => {
+    document.title = "Kate Fu's Website"
+ }, []);
+
   return (
     <div className="App">
       <NavBar/>
