@@ -6,7 +6,7 @@ import LocationOnIcon from '@material-ui/icons/LocationOn';
 
 export const Banner = () => {
 
-    const toRotate = ["Software Engineer", "Web Developer", "UI/UX Designer", "iOS Developer"]
+    const toRotate = ["Software Engineer", "Web Developer", "Data Analyst", "iOS Developer"]
     const [loopNum, setLoopNum] = useState(0)
     const [isDeleting, setIsDeleting] = useState(false)
     const [text, setText] = useState('Software Engineer')
@@ -54,7 +54,7 @@ export const Banner = () => {
                         <p> A typical Virgo + ESFJ.</p>
                         <p> Love travel, books, movies, animals and new things</p>
                         <p> A recent graduate from Carnegie Mellon University</p>
-                        <p> Currently searching for a software engineer job</p>
+                        <p> Currently searching for a Software Engineer / Data Analyst job</p>
                         <p>
                             <LocationOnIcon/> Pittsburgh, PA, 100% Willing to relocate
                         </p>
