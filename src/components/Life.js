@@ -37,7 +37,7 @@ export const Life = () => {
         'Titanic',
         'Midnight Paris',
         '無間道 (Infernal Affairs)',
-        'Roman Holiday',
+        'La Boum',
         'Dead Poets Society'
     ]
 

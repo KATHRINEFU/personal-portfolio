@@ -54,7 +54,7 @@ export const Banner = () => {
                         <p> A typical Virgo + ESFJ.</p>
                         <p> Love travel, books, movies, animals and new things</p>
                         <p> A recent graduate from Carnegie Mellon University</p>
-                        <p> Currently searching for a Software Engineer / Data Analyst job</p>
+                        <p> Searching for a Software Engineer / Data Analyst job</p>
                         <p>
                             <LocationOnIcon/> Pittsburgh, PA, 100% Willing to relocate
                         </p>
