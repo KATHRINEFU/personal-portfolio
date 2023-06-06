@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.aa749970.css",
-    "main.js": "/personal-portfolio/static/js/main.a66fa374.js",
+    "main.css": "/personal-portfolio/static/css/main.26ad4162.css",
+    "main.js": "/personal-portfolio/static/js/main.72e077f1.js",
     "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/photo1.JPG": "/personal-portfolio/static/media/photo1.e49155e4fcfa1f929a63.JPG",
     "static/media/photo2.JPG": "/personal-portfolio/static/media/photo2.86ddbd5b0a2e4227b38c.JPG",
@@ -38,12 +38,12 @@
     "static/media/bilibili.svg": "/personal-portfolio/static/media/bilibili.1c9456ad4f423121148c2548f97eba91.svg",
     "static/media/linkedin.svg": "/personal-portfolio/static/media/linkedin.114b4791ec32d586bc0b445e2ee69f5d.svg",
     "index.html": "/personal-portfolio/index.html",
-    "main.aa749970.css.map": "/personal-portfolio/static/css/main.aa749970.css.map",
-    "main.a66fa374.js.map": "/personal-portfolio/static/js/main.a66fa374.js.map",
+    "main.26ad4162.css.map": "/personal-portfolio/static/css/main.26ad4162.css.map",
+    "main.72e077f1.js.map": "/personal-portfolio/static/js/main.72e077f1.js.map",
     "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa749970.css",
-    "static/js/main.a66fa374.js"
+    "static/css/main.26ad4162.css",
+    "static/js/main.72e077f1.js"
   ]
 }
