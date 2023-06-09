@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.26ad4162.css",
-    "main.js": "/personal-portfolio/static/js/main.72e077f1.js",
+    "main.js": "/personal-portfolio/static/js/main.f19df453.js",
     "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/photo1.JPG": "/personal-portfolio/static/media/photo1.e49155e4fcfa1f929a63.JPG",
     "static/media/photo2.JPG": "/personal-portfolio/static/media/photo2.86ddbd5b0a2e4227b38c.JPG",
@@ -35,15 +35,15 @@
     "static/media/accenture.png": "/personal-portfolio/static/media/accenture.e7aa41146e7ab09a99b5.png",
     "static/media/impact.svg": "/personal-portfolio/static/media/impact.2e44c46bd0c30e454ebbd6c365980627.svg",
     "static/media/instagram.svg": "/personal-portfolio/static/media/instagram.5d69ebe80cf414c24e1da6f058a38e83.svg",
-    "static/media/bilibili.svg": "/personal-portfolio/static/media/bilibili.1c9456ad4f423121148c2548f97eba91.svg",
     "static/media/linkedin.svg": "/personal-portfolio/static/media/linkedin.114b4791ec32d586bc0b445e2ee69f5d.svg",
+    "static/media/github.svg": "/personal-portfolio/static/media/github.04be58c17b3d5e9744424d414240dd85.svg",
     "index.html": "/personal-portfolio/index.html",
     "main.26ad4162.css.map": "/personal-portfolio/static/css/main.26ad4162.css.map",
-    "main.72e077f1.js.map": "/personal-portfolio/static/js/main.72e077f1.js.map",
+    "main.f19df453.js.map": "/personal-portfolio/static/js/main.f19df453.js.map",
     "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.26ad4162.css",
-    "static/js/main.72e077f1.js"
+    "static/js/main.f19df453.js"
   ]
 }
