@@ -59,6 +59,16 @@ function SkillsBar () {
             percentage: '40%'
         },
         {
+            skill: 'Flutter',
+            name: 'flutter',
+            percentage: '70%'
+        },
+        {
+            skill: 'Swift',
+            name: 'swift',
+            percentage: '60%'
+        },
+        {
             skill: 'Restful API',
             name: 'restfulapi',
             percentage: '50%'
