@@ -16,7 +16,7 @@ export const Life = () => {
     ]
 
     const dreamList = [
-        'have cats and dogs',
+        'having cats and dogs',
         'openning a bookstore with cafe',
         'openning an animal caring center',
         'developing an APP',

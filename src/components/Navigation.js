@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import {useEffect, useState} from 'react';
 import navIcon1 from '../assets/img/linkedin.svg'
 import navIcon2 from '../assets/img/instagram.svg'
-import navIcon3 from '../assets/img/bilibili.svg'
+import navIcon3 from '../assets/img/github.svg'
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -52,7 +52,7 @@ export const NavBar = () => {
                     <div className='social-icon'>
                         <a href='https://www.linkedin.com/in/yuehao-kate-fu-87b5bb1b2/'><img src={navIcon1} alt=''></img></a>
                         <a href='https://www.instagram.com/fuyuehaokate/'><img src={navIcon2} alt=''></img></a>
-                        <a href='https://space.bilibili.com/176476693?spm_id_from=333.1007.0.0'><img src={navIcon3} alt=''></img></a>
+                        <a href='https://github.com/KATHRINEFU'><img src={navIcon3} alt=''></img></a>
                     </div>
                     <HashLink to='#connect'>
                         <button className="vvd"><span>Let's Connect</span></button>
