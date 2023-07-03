@@ -38,7 +38,7 @@ export const Contact = () => {
         </Row>
         <Row>
             <Col>
-            <span className="footer">Created by Kate Fu | With ReactJS | Last Updated: 2023/6/9</span><br/>
+            <span className="footer">Created by Kate Fu | With ReactJS | Last Updated: 2023/7/3</span><br/>
             <span className="footer">Copyright 2023. All Rights Reserved</span>
             </Col>
         </Row>

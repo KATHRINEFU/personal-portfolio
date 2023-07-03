@@ -49,7 +49,7 @@ export const Life = () => {
         'Narziß und Goldmund by Hermann Karl Hesse',
         'In Cold Blood by Truman Capote',
         '我想做一个能在你葬礼上描述你一生的人 by 贾平凹',
-        '午夜降临前抵达 by 迟子建',
+        '午夜降临前抵达 by 刘子超',
     ]
 
     return (
