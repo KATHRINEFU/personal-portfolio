@@ -1,5 +1,3 @@
-import { Container } from "react-bootstrap"
-import { ExpCard } from "./ExpCard"
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import WorkIcon from '@material-ui/icons/Work';
@@ -9,10 +7,20 @@ import senueloImg from "../assets/img/senuelo.png"
 import impactImg from "../assets/img/impact.svg"
 import accentureImg from "../assets/img/accenture.png"
 import vechainImg from "../assets/img/vechain.png"
+import spurImg from "../assets/img/SpurIcon.png"
 
 
 export const Experience = () => {
     const expList = [
+        {
+          company: 'SpurSMB',
+          role: 'Fullstack Software Engineer, Intern',
+          detail:" Developed web platform using React for frontend, NextJS for backend. Srapped web info and created backend endpoints. Created multiple react hooks, redux slices for better API calls and state manegement. ",
+          tenure: "Jul 2023 - Present",
+          img: spurImg,
+          url: '',
+          techstack: 'JavaScript | TypeScript | NodeJS | NextJS | React | HTML | CSS | Azure'
+        },
         {
           company: 'Bayer Healthcare',
           role: 'Software Engineer, Capstone',

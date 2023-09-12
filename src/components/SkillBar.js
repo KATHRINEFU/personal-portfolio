@@ -44,14 +44,9 @@ function SkillsBar () {
             percentage: '85%'
         },
         {
-            skill: 'Spring',
-            name: 'spring',
-            percentage: '50%'
-        },
-        {
-            skill: 'SpringBoot',
+            skill: 'Spring/SpringBoot/SpringCloud/SpringSecurity',
             name: 'springboot',
-            percentage: '50%'
+            percentage: '80%'
         },
         {
             skill: 'Ruby on Rails',
@@ -79,7 +74,7 @@ function SkillsBar () {
             percentage: '80%'
         },
         {
-            skill: 'MySQL/SQLServer/SQLLite',
+            skill: 'MySQL/PostgreSQL/SQLServer/SQLLite',
             name: 'mysql',
             percentage: '80%'
         },
@@ -94,7 +89,7 @@ function SkillsBar () {
             percentage: '60%'
         },
         {
-            skill: 'Amazon Web Service',
+            skill: 'Amazon Web Service/Azure',
             name: 'aws',
             percentage: '50%'
         },
