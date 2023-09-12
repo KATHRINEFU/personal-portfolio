@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.8050aad1.css",
-    "main.js": "/personal-portfolio/static/js/main.abe74876.js",
+    "main.js": "/personal-portfolio/static/js/main.7ae9b5e7.js",
     "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/photo1.JPG": "/personal-portfolio/static/media/photo1.e49155e4fcfa1f929a63.JPG",
     "static/media/photo2.JPG": "/personal-portfolio/static/media/photo2.86ddbd5b0a2e4227b38c.JPG",
@@ -25,6 +25,7 @@
     "static/media/katechat.png": "/personal-portfolio/static/media/katechat.9f911d3ef5cd9d0d676c.png",
     "static/media/Poppins-Regular.ttf": "/personal-portfolio/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
     "static/media/photo9.jpg": "/personal-portfolio/static/media/photo9.44534db178dc2ec965f4.jpg",
+    "static/media/SpurIcon.png": "/personal-portfolio/static/media/SpurIcon.c5cc6286cd4b65b27649.png",
     "static/media/project-img1.png": "/personal-portfolio/static/media/project-img1.7aa97556a05c96e423d5.png",
     "static/media/vechain.png": "/personal-portfolio/static/media/vechain.50219b69fffaa4c3fcd0.png",
     "static/media/bayer.png": "/personal-portfolio/static/media/bayer.63e12e2c6e7993ca6680.png",
@@ -39,11 +40,11 @@
     "static/media/github.svg": "/personal-portfolio/static/media/github.04be58c17b3d5e9744424d414240dd85.svg",
     "index.html": "/personal-portfolio/index.html",
     "main.8050aad1.css.map": "/personal-portfolio/static/css/main.8050aad1.css.map",
-    "main.abe74876.js.map": "/personal-portfolio/static/js/main.abe74876.js.map",
+    "main.7ae9b5e7.js.map": "/personal-portfolio/static/js/main.7ae9b5e7.js.map",
     "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8050aad1.css",
-    "static/js/main.abe74876.js"
+    "static/js/main.7ae9b5e7.js"
   ]
 }
