@@ -23,7 +23,7 @@ export const Contact = () => {
             <Col>
             <LocationOnIcon/>
             <h3>Find me at </h3>
-            <p>Carnegie Mellon University, Pittsburgh, PA, 15232</p>
+            <p> San Jose, CA</p>
             </Col>
             <Col>
             <EmailIcon/>
@@ -38,8 +38,8 @@ export const Contact = () => {
         </Row>
         <Row>
             <Col>
-            <span className="footer">Created by Kate Fu | With ReactJS | Last Updated: 2023/9/11</span><br/>
-            <span className="footer">Copyright 2023. All Rights Reserved</span>
+            <span className="footer">Created by Kate Fu | With ReactJS | Last Updated: 2024/6/2</span><br/>
+            <span className="footer">Copyright 2024. All Rights Reserved</span>
             </Col>
         </Row>
       </Container>

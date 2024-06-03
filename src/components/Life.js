@@ -1,5 +1,11 @@
 import { Container, Row, Col } from "react-bootstrap"
 import { Photos } from "./Gallery"
+import catImg1 from "../assets/cat/cat1.jpg"
+import catImg2 from "../assets/cat/cat2.jpg"
+import catImg3 from "../assets/cat/cat3.jpg"
+import catImg4 from "../assets/cat/cat4.jpg"
+import catImg5 from "../assets/cat/cat5.jpg"
+import catImg6 from "../assets/cat/cat6.jpg"
 
 export const Life = () => {
     const likeList = [
@@ -52,6 +58,15 @@ export const Life = () => {
         '午夜降临前抵达 by 刘子超',
     ]
 
+    const catImageList = [
+        catImg1,
+        catImg2,
+        catImg3,
+        catImg4,
+        catImg5,
+        catImg6,
+    ]
+
     return (
         <section className="life" id="life">
             <Photos/>
@@ -88,6 +103,34 @@ export const Life = () => {
                             {bookList.map(item => <li>{item}</li>)}
                         </ul>
                     </Col>
+                </Row>
+                <Row>
+                    <Row>
+                        <h2>My best friend, my daughter, my dream come true</h2>
+                        <h3>Chinese Name: 汤圆, English Name: Macchi, born in 3/1/2023, became my family member in 4/1/2024</h3>
+                    </Row>
+                    <Row>
+                        <Col className="imageColumn">
+                            <img src={catImageList[0]} alt="cat"/>
+                        </Col>
+                        <Col className="imageColumn">
+                            <img src={catImageList[1]} alt="cat"/>
+                        </Col>
+                        <Col className="imageColumn">
+                            <img src={catImageList[2]} alt="cat"/>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col className="imageColumn">
+                            <img src={catImageList[3]} alt="cat"/>
+                        </Col>
+                        <Col className="imageColumn">
+                            <img src={catImageList[4]} alt="cat"/>
+                        </Col>
+                        <Col className="imageColumn">
+                            <img src={catImageList[5]} alt="cat"/>
+                        </Col>
+                    </Row>
                 </Row>
             </Container>
         </section>

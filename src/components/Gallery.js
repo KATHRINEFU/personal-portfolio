@@ -12,10 +12,35 @@ import photo10 from "../assets/gallery/photo10.jpg"
 import photo11 from "../assets/gallery/photo11.jpg"
 import photo12 from "../assets/gallery/photo12.jpg"
 import photo13 from "../assets/gallery/photo13.jpg"
+import photo14 from "../assets/gallery/photo14.jpg"
+import photo15 from "../assets/gallery/photo15.jpg"
+import photo16 from "../assets/gallery/photo16.jpg"
+import photo17 from "../assets/gallery/photo17.jpg"
 
 export const Photos = () => {
 
-    const images = [{
+    const images = [
+      {
+        src: photo17,
+        caption: "Seattle | Seattle Downtown",
+        date: "May 2024",
+      },
+      {
+        src: photo16,
+        caption: "Kilington | Mount Kilington",
+        date: "Jan 2024",
+      },
+      {
+        src: photo15,
+        caption: "Monterey | 17 miles",
+        date: "Dec 2023",
+      },
+      {
+        src: photo14,
+        caption: "San Francisco | Golden Gate Bridge",
+        date: "Dec 2023",
+      },
+      {
         src: photo1,
         caption: "Los Angeles | Santa Monica",
         date: "May 2023"

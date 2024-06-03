@@ -6,12 +6,20 @@ import projImg3 from "../assets/img/katechat.png"
 import projImg4 from "../assets/img/pw.png"
 import projImg5 from "../assets/img/paris.png"
 import projImg6 from "../assets/img/cf.png"
+import projImg7 from "../assets/img/Collaspace.png"
 import Skills from "./SkillBar"
 import { Education } from "./Education"
 import { Experience } from "./Experience"
 
 export const Projects = () => {
     const projects = [
+        {
+            title: 'CollaSpace',
+            description: 'A fullstack microservice web platform for team collaboration',
+            techStack: 'Java | TypeScript | SpringBoot | SpringCloud | React | Tailwind CSS | PostgreSQL',
+            imgUrl: projImg7,
+            github: 'https://github.com/KATHRINEFU/Collaspace'
+        },
         {
             title: 'MyRadiology360',
             description: 'A mobile app for radiology education (github private)',
@@ -46,15 +54,7 @@ export const Projects = () => {
             techStack: 'React| React bootstrap | CSS',
             imgUrl: projImg4,
             github: 'https://github.com/KATHRINEFU/personal-portfolio'
-        },
-        {
-            title: 'Crowdfunding Easier',
-            description: 'A website for crowdfunding projects management',
-            techStack: 'Java | Maven | Spring | Springboot | SpringCloud | MyBatis',
-            imgUrl: projImg6,
-            github: 'https://github.com/KATHRINEFU/CrowdFunding'
-        },
-
+        }
     ]
     return (
         <section className="project" id="project">
@@ -65,8 +65,8 @@ export const Projects = () => {
                     <ul className="project-summary">
                         <li>I'm a software engineer seeking moonshot in fullstack/backend positions. </li>
                         <li>I'm also Carnegie Mellon University class of 2023 M.S. in Information System Management.</li>
-                        <li>My primary interests have been web development, iOS development, machine learning, product management and the list is still growing. </li>
-                        <li>I am open to software engineer/data science/startup opportunities. If you think I'm a good fit, please contant me at yuehaofu207@gmail.com</li>
+                        <li>My primary interests are web development, iOS development, product management. </li>
+                        <li>I am open to software engineer/startup opportunities. If you think I'm a good fit, please contant me at yuehaofu207@gmail.com</li>
                     </ul>
                     <TabContainer id="projects-tabs" defaultActiveKey="first">
                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
@@ -85,7 +85,7 @@ export const Projects = () => {
                         </Nav>
                         <TabContent>
                             <TabPane eventKey="first">
-                            `   <Skills/>,
+                                <Skills/>,
                             </TabPane>
                             <TabPane eventKey="second">
                                 <Education/>
